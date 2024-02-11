@@ -26,7 +26,7 @@ with only the strategy to be parsed and other parameters defined in the code.
 
 To switch between datasets, only the import statements and definitions in the beginning need to be changed (see the annotation).
 
-The trained models and training logs of server&client performance in each round are stored in `./cks/`. However PAMAP2 and ISIC2019 model checkpoints are not included in the submission as they are too large.
+The trained models and training logs of server&client performance in each round are stored in `PFL/cks/`. 
 
-The config of Heart-Disease and ISIC2019 is imported from the FLamby benchmark. That of PAMAP2 is defined in `har_config.py`.
+The config of ISIC2019 is imported from the FLamby benchmark. The config of PAMAP2 is defined in `har_config.py`, config of PhysioNet-2016 is defined in `audio_config.py`.
 
